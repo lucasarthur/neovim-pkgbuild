@@ -12,6 +12,9 @@ source=(
   'git+https://github.com/neovim/neovim.git#tag=v${pkgver}'
   'https://gist.githubusercontent.com/lucasarthur/40184e9ccae8a22d03e2f4da1680c7ea/raw/5d7b6156ca7b6664b7d5e10e6d7aca67fdaa57a0/remove_readonly_delay.patch'
 )
+b2sums=(
+  'SKIP',
+  '0caea8429162b2473ee77fc24e9441d4a02687427e7d2a699fe7172b137f3cf57333b646e0ec4a9d70f58836f271129343b28c7d3453912f20c784edc6718cab')
 
 build() {
   cd ${pkgname}

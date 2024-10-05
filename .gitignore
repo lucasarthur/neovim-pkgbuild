@@ -2,4 +2,6 @@
 *.pkg.tar.zst
 /pkg
 /src
+/neovim
+remove_readonly_delay.patch
 .SRCINFO
